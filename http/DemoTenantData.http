@@ -1,0 +1,31 @@
+### 获取列表
+GET http://mvc.apps.cloudschools.cn/DemoApp/api/DemoTenantData/4?parameter=p1
+
+### 分页获取列表
+GET http://mvc.apps.cloudschools.cn/DemoApp/api/DemoTenantData/4/page?pageIndex=1&pageSize=2
+
+### 新建
+POST http://mvc.apps.cloudschools.cn/DemoApp/api/DemoTenantData/4
+Content-Type: application/json
+
+{
+    Title:"test1",
+    DataType:'A'
+}
+
+### 更新
+PUT http://mvc.apps.cloudschools.cn/DemoApp/api/DemoTenantData/4/4
+Content-Type: application/json
+
+{
+    Id:4,
+    TenantId:4,
+    Title:"test1",
+    DataType:'B'
+}
+
+### 单个删除
+DELETE http://mvc.apps.cloudschools.cn/DemoApp/api/DemoTenantData/4/10
+
+### 批量删除
+DELETE http://mvc.apps.cloudschools.cn/DemoApp/api/DemoTenantData/4/bulk/10,11,12,4

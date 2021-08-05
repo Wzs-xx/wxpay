@@ -1,0 +1,10 @@
+###
+POST https://testnewmvc.apps.cloudschools.cn/SF/api/StudentChargeBill/4/1/wechatpay
+Content-Type: application/json
+Authorization: eEhzKH8S6cuZy9FgwaGPdZmvoyLtgjdWFBtXojF_Wm7EKAPLPavfOIgEjOzkt73Zrx_hpZyHdcATkiv_kJslo76835PCMXV0FoHGd_XfxVrtb_VS_QExrstjznp1EO1u
+
+###
+###
+GET https://testnewmvc.apps.cloudschools.cn/SF/api/StudentChargeBill/4/1
+Content-Type: application/json
+Authorization: GmrqDowo9llzgkuiEd-Qj7cSoYN8S6MQYqDhPIZxl93kjhoG2QMEny7boImNq9haa7etcvl691WnBiBI5-NJ7ZrjyhevraN66CCx8hvnjsTnVrR_Vip44EOCZf18oXNe

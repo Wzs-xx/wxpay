@@ -1,0 +1,30 @@
+### 获取验证码图片Base64字符串及验证码加密值（含有效期）
+GET http://testnewmvc.apps.cloudschools.cn/api/VerifyCodeImage
+
+
+### 根据证件号和学生姓名获取令牌
+POST https://testnewmvc.apps.cloudschools.cn/api/auth2/certno
+Content-Type: application/json
+Authorization: GmrqDowo9llzgkuiEd-Qj0hJSwf4gqbrAUcGyX7ohm2QwpI1MdyH7j94fPjieFdOj1a-kTQRu1zm0--tQAjmFymXE4zcNOpJDYFs1OMCRPyqVcT_U2G15VhE3dVvTPQx
+
+{
+CertNo:"test",
+StudentName:"test",
+TenantId:596,
+VerifyCode:"test",
+VerifyCodeToken:"test"
+}
+
+### 开发令牌
+POST https://testnewmvc.apps.cloudschools.cn/api/auth2/dev
+Content-Type: application/json
+Authorization: GmrqDowo9llzgkuiEd-QjxbwmkF0gsSMF7AhGj8-QAWCpB5usH5CEN-UZHKdI0Qo5rSXbMDT-ceCsWxNesDv9nyhG6wQ7RzFtv3hu_sfmYRz0kL1YiwBQxt4C8W4VyiJ
+
+{
+TenantId:596,
+StudentId:79079
+}
+
+### 获取个人信息
+GET https://testnewmvc.apps.cloudschools.cn/api/selfinfo2
+Authorization: GmrqDowo9llzgkuiEd-QjxbwmkF0gsSMF7AhGj8-QAWCpB5usH5CEN-UZHKdI0Qo5rSXbMDT-ceCsWxNesDv9nyhG6wQ7RzFtv3hu_sfmYRz0kL1YiwBQxt4C8W4VyiJ
